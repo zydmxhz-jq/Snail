@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		14995B16464A4605F39BA571 /* Pods_SnailGirlTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8DBE0AA37B9BA8045EE9652 /* Pods_SnailGirlTests.framework */; };
 		3ECBE4F11F0145DF00C526C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECBE4F01F0145DF00C526C1 /* AppDelegate.swift */; };
 		3ECBE4F31F0145DF00C526C1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECBE4F21F0145DF00C526C1 /* ViewController.swift */; };
 		3ECBE4F61F0145DF00C526C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3ECBE4F41F0145DF00C526C1 /* Main.storyboard */; };
 		3ECBE4F81F0145DF00C526C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3ECBE4F71F0145DF00C526C1 /* Assets.xcassets */; };
 		3ECBE4FB1F0145DF00C526C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3ECBE4F91F0145DF00C526C1 /* LaunchScreen.storyboard */; };
 		3ECBE5061F0145DF00C526C1 /* SnailGirlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECBE5051F0145DF00C526C1 /* SnailGirlTests.swift */; };
+		D509C0CC44C2D4A0A985EA43 /* Pods_SnailGirl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4A0096B04888DD5993104B9 /* Pods_SnailGirl.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0E4FD0610BA034D054C3A9C9 /* Pods-SnailGirl.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnailGirl.release.xcconfig"; path = "Pods/Target Support Files/Pods-SnailGirl/Pods-SnailGirl.release.xcconfig"; sourceTree = "<group>"; };
 		3ECBE4ED1F0145DE00C526C1 /* SnailGirl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnailGirl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3ECBE4F01F0145DF00C526C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3ECBE4F21F0145DF00C526C1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +39,11 @@
 		3ECBE5011F0145DF00C526C1 /* SnailGirlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnailGirlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3ECBE5051F0145DF00C526C1 /* SnailGirlTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnailGirlTests.swift; sourceTree = "<group>"; };
 		3ECBE5071F0145DF00C526C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68845949645F85275B0C3D69 /* Pods-SnailGirl.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnailGirl.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SnailGirl/Pods-SnailGirl.debug.xcconfig"; sourceTree = "<group>"; };
+		C54F898DAD054557D161E93E /* Pods-SnailGirlTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnailGirlTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SnailGirlTests/Pods-SnailGirlTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D4A0096B04888DD5993104B9 /* Pods_SnailGirl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SnailGirl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9CC6BED86602CADEF8D6873 /* Pods-SnailGirlTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnailGirlTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SnailGirlTests/Pods-SnailGirlTests.release.xcconfig"; sourceTree = "<group>"; };
+		F8DBE0AA37B9BA8045EE9652 /* Pods_SnailGirlTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SnailGirlTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D509C0CC44C2D4A0A985EA43 /* Pods_SnailGirl.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,18 +59,32 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14995B16464A4605F39BA571 /* Pods_SnailGirlTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		22D273FB17919B3F3FD45B01 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				68845949645F85275B0C3D69 /* Pods-SnailGirl.debug.xcconfig */,
+				0E4FD0610BA034D054C3A9C9 /* Pods-SnailGirl.release.xcconfig */,
+				C54F898DAD054557D161E93E /* Pods-SnailGirlTests.debug.xcconfig */,
+				D9CC6BED86602CADEF8D6873 /* Pods-SnailGirlTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		3ECBE4E41F0145DE00C526C1 = {
 			isa = PBXGroup;
 			children = (
 				3ECBE4EF1F0145DE00C526C1 /* SnailGirl */,
 				3ECBE5041F0145DF00C526C1 /* SnailGirlTests */,
 				3ECBE4EE1F0145DE00C526C1 /* Products */,
+				22D273FB17919B3F3FD45B01 /* Pods */,
+				E53A889A69ACF797317339E8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,6 +119,15 @@
 			path = SnailGirlTests;
 			sourceTree = "<group>";
 		};
+		E53A889A69ACF797317339E8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D4A0096B04888DD5993104B9 /* Pods_SnailGirl.framework */,
+				F8DBE0AA37B9BA8045EE9652 /* Pods_SnailGirlTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +135,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3ECBE50A1F0145DF00C526C1 /* Build configuration list for PBXNativeTarget "SnailGirl" */;
 			buildPhases = (
+				32C0DFFFE976CC8398E4486E /* [CP] Check Pods Manifest.lock */,
 				3ECBE4E91F0145DE00C526C1 /* Sources */,
 				3ECBE4EA1F0145DE00C526C1 /* Frameworks */,
 				3ECBE4EB1F0145DE00C526C1 /* Resources */,
+				70F7A45E2BD1D1A0E42A5038 /* [CP] Embed Pods Frameworks */,
+				A04693D9F98545933D23825C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -120,9 +155,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3ECBE50D1F0145DF00C526C1 /* Build configuration list for PBXNativeTarget "SnailGirlTests" */;
 			buildPhases = (
+				9DABBEF1A8554AEAADF31E3A /* [CP] Check Pods Manifest.lock */,
 				3ECBE4FD1F0145DF00C526C1 /* Sources */,
 				3ECBE4FE1F0145DF00C526C1 /* Frameworks */,
 				3ECBE4FF1F0145DF00C526C1 /* Resources */,
+				9E2F08FE9FAF539C0FFB5B7D /* [CP] Embed Pods Frameworks */,
+				41F956AD3EB1E1CE86EC4171 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,6 +231,116 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		32C0DFFFE976CC8398E4486E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SnailGirl-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		41F956AD3EB1E1CE86EC4171 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SnailGirlTests/Pods-SnailGirlTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		70F7A45E2BD1D1A0E42A5038 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SnailGirl/Pods-SnailGirl-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SnailGirl/Pods-SnailGirl-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9DABBEF1A8554AEAADF31E3A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SnailGirlTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E2F08FE9FAF539C0FFB5B7D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SnailGirlTests/Pods-SnailGirlTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A04693D9F98545933D23825C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SnailGirl/Pods-SnailGirl-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3ECBE4E91F0145DE00C526C1 /* Sources */ = {
@@ -339,6 +487,7 @@
 		};
 		3ECBE50B1F0145DF00C526C1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68845949645F85275B0C3D69 /* Pods-SnailGirl.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SnailGirl/Info.plist;
@@ -351,6 +500,7 @@
 		};
 		3ECBE50C1F0145DF00C526C1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E4FD0610BA034D054C3A9C9 /* Pods-SnailGirl.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SnailGirl/Info.plist;
@@ -363,6 +513,7 @@
 		};
 		3ECBE50E1F0145DF00C526C1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C54F898DAD054557D161E93E /* Pods-SnailGirlTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -377,6 +528,7 @@
 		};
 		3ECBE50F1F0145DF00C526C1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9CC6BED86602CADEF8D6873 /* Pods-SnailGirlTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";

@@ -1,15 +1,14 @@
 //
-//  SnailGirlTests.swift
-//  SnailGirlTests
+//  SnailTest.swift
+//  Snail
 //
-//  Created by Rainbow on 2017/6/26.
+//  Created by Rainbow on 2017/7/4.
 //  Copyright © 2017年 Rainbow. All rights reserved.
 //
 
 import XCTest
-@testable import SnailGirl
 
-class SnailGirlTests: XCTestCase {
+class SnailTest: XCTestCase {
     
     override func setUp() {
         super.setUp()

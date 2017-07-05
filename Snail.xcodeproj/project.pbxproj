@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		229FB97F86E05AE6309FA62F /* Pods_Snail.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF8DAC8B715E694F4AC9C467 /* Pods_Snail.framework */; };
 		3ECBE5131F0BD95F00C526C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECBE5101F0BD95F00C526C1 /* AppDelegate.swift */; };
 		3ECBE5141F0BD95F00C526C1 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3ECBE5111F0BD95F00C526C1 /* Info.plist */; };
 		3ECBE5151F0BD95F00C526C1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECBE5121F0BD95F00C526C1 /* ViewController.swift */; };
@@ -15,6 +16,7 @@
 		3ECBE51E1F0BDACB00C526C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3ECBE51C1F0BDACB00C526C1 /* Assets.xcassets */; };
 		3ECBE5261F0BDB4C00C526C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3ECBE5231F0BDB4C00C526C1 /* Main.storyboard */; };
 		3ECBE5291F0BDBD900C526C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3ECBE5271F0BDBD900C526C1 /* LaunchScreen.storyboard */; };
+		FA6BF684A787576A3371A1BC /* Pods_SnailTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56CD6A549215A1DE03A10C41 /* Pods_SnailTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,11 +43,13 @@
 		3ECBE51C1F0BDACB00C526C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Snail/Assets.xcassets; sourceTree = SOURCE_ROOT; };
 		3ECBE5241F0BDB4C00C526C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
 		3ECBE5281F0BDBD900C526C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		56CD6A549215A1DE03A10C41 /* Pods_SnailTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SnailTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		68845949645F85275B0C3D69 /* Pods-SnailGirl.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnailGirl.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SnailGirl/Pods-SnailGirl.debug.xcconfig"; sourceTree = "<group>"; };
 		8193FBD081A4F9C6790A613A /* Pods-Snail.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Snail.release.xcconfig"; path = "Pods/Target Support Files/Pods-Snail/Pods-Snail.release.xcconfig"; sourceTree = "<group>"; };
 		C54F898DAD054557D161E93E /* Pods-SnailGirlTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnailGirlTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SnailGirlTests/Pods-SnailGirlTests.debug.xcconfig"; sourceTree = "<group>"; };
 		D4E564C206B4AF937085D391 /* Pods-Snail.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Snail.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Snail/Pods-Snail.debug.xcconfig"; sourceTree = "<group>"; };
 		D9CC6BED86602CADEF8D6873 /* Pods-SnailGirlTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnailGirlTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SnailGirlTests/Pods-SnailGirlTests.release.xcconfig"; sourceTree = "<group>"; };
+		EF8DAC8B715E694F4AC9C467 /* Pods_Snail.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Snail.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				229FB97F86E05AE6309FA62F /* Pods_Snail.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA6BF684A787576A3371A1BC /* Pods_SnailTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,6 +143,8 @@
 		E53A889A69ACF797317339E8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				EF8DAC8B715E694F4AC9C467 /* Pods_Snail.framework */,
+				56CD6A549215A1DE03A10C41 /* Pods_SnailTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -259,7 +267,7 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-Snail/Pods-Snail-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
-				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/LeanCloud/LeanCloud.framework",
 				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
 			);
@@ -267,7 +275,7 @@
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LeanCloud.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
 			);

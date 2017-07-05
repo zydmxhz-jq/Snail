@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import LeanCloud
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,6 +17,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        initializeApp()
         return true
     }
 
@@ -41,6 +43,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
 
+    func initializeApp() {
+        LeanCloud.initialize(applicationID: "tXreB11eT1UuM8EooEI4BfT4-gzGzoHsz", applicationKey: "shI7QYY9OvhC7eI5ShSPetgM")
+    }
 
 }
 

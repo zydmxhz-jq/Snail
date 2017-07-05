@@ -9,11 +9,11 @@ target 'Snail' do
 
   # Pods for Snail
 
-pod ‘Realm’
 pod 'Charts', '~> 3.0'
 pod 'RxSwift', '~> 3.0'
 pod 'RxCocoa', '~> 3.0'
-pod 'Alamofire', '~> 4.4'
+#pod 'Alamofire', '~> 4.4'
+pod 'LeanCloud', '~> 10.0.2'
 
   target 'SnailTests' do
     inherit! :search_paths
